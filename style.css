@@ -742,8 +742,9 @@ p{
   /*--Services--*/
 
   #services {
-    padding: 0px 20px;
+    padding: 20px 20px;
     margin-bottom: 0;
+    margin-top: 1rem;
   }
 
   #services .sub-title {
@@ -962,5 +963,9 @@ p{
 
   .progress-bar {
     height: 7px;
+  }
+  
+  #services{
+    padding: 50px 50px;
   }
 }
