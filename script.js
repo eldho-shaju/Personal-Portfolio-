@@ -1,3 +1,21 @@
+/* Typing effect in banner */
+
+let intro = "Hi, I'm";
+let myName = "ELDHO SHAJU"
+let i = 0;
+let j = 0;
+
+function TypingEffect() {
+    document.getElementById("intro").innerHTML += intro.charAt(i);
+    i++;
+    setTimeout(TypingEffect, 150);
+    setTimeout(function () {
+        document.getElementById("my-name").innerHTML += myName.charAt(j);
+        j++;
+        setTimeout(TypingEffect, 400);
+    }, 1500)
+}
+
 /*--To enable tab switch in about section--*/
 
 let tabtitles = document.getElementsByClassName('tab-title');
